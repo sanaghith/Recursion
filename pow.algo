@@ -1,0 +1,15 @@
+FUNCTION pow(x,y) : INTEGER
+VAR
+    n=INTEGER:=1
+BEGIN
+    FOR i FROM 1 TO y STEP 1  DO
+       n=n*x
+    END_FOR
+    RETURN n ;
+END
+ALGORITHM algorithm_name
+VAR
+    a=INTEGER 
+BEGIN
+   a=pow(3,2)
+END

@@ -1,0 +1,12 @@
+ALGORITHM find factorial
+VAR
+    a:INTEGER
+    b:INTEGER :=1
+BEGIN
+    FOR i FROM a TO 1 STEP -1  DO
+        b=b*i
+    END_FOR
+END
+// i=5&4&3&2&1
+// a=5&
+// b=1&5&20&60&120&120

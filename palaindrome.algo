@@ -1,0 +1,15 @@
+FUNCTION palaindrome(str,i) : string
+VAR
+   j:INTEGER
+BEGIN
+   j=str.length-1-i
+   IF (i==j ou i>j) THEN
+    return "palaindrome"
+    ELSE_IF (str[i]!=str[j]) THEN
+        return "non palaindrome"
+    ELSE
+      return palaindrome(str,i+1)
+    END_IF
+   END_IF
+  
+END
